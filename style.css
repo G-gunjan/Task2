@@ -1,0 +1,179 @@
+/* Reset styles and basic setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px 0;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #666;
+}
+
+.destination {
+    display: inline-block;
+    justify-content:center;
+    width:100px;
+    height:100px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align:center;
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;
+}
+
+.destination h3 {
+    margin-top: 10px;
+}
+.destination:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+.package {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.package:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+.package h3 {
+    margin-top: 10px;
+}
+
+.package .price {
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+    margin-top: 10px;
+}
+
+.package .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+.about-us:hover {
+    background-color: #444;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+@media(min-width:768px){
+    .container{
+        width:70%;
+        height:60%;
+    }
+   .destination,.package{
+    width: 30%;
+    margin: 20px;
+   }
+}
+@media(min-width:992px){
+    .container{
+        width:60%;
+    }
+   .destination,.package{
+    width: 30%;
+    height:50%;
+    margin: 20px;
+   }
+}
+
+
