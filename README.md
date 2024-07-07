@@ -3,3 +3,5 @@
 I have used html and css to implement responsive design techniques using media queries to ensure optimal display and usability across various devices and screen sizes
 ### Responsibility
 Test responsiveness on different devices and browsers ensuring a consistent user experience.Prioritize perfomance and accessibility in responsive design.
+https://github.com/G-gunjan/Task2/assets/145027556/7cc0877c-f957-43d0-b678-c749ef5124dc
+
